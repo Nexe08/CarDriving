@@ -1,19 +1,16 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-    
-
 
 public class DrivingControl : MonoBehaviour {
     public List<AxleInfo> axleInfos; 
     public float maxMotorTorque;
     public float maxBrakeTorque;
     public float maxSteeringAngle;
+    public bool isParked = false;
 
+    public float magnitude;
 
-    public float motor1;
-    public float newinptu;
-     
     bool braking;
     
     AudioSource enginSound;
@@ -45,6 +42,9 @@ public class DrivingControl : MonoBehaviour {
      
     public void FixedUpdate()
     {
+        if (isParked)
+            return;
+        
         float vertical = Input.GetAxis("Vertical");
         float motor = maxMotorTorque * vertical;
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
@@ -53,9 +53,6 @@ public class DrivingControl : MonoBehaviour {
         enginSound.pitch = motorRange;
         enginSound.pitch = Mathf.Clamp(enginSound.pitch, .7f, 3f);
 
-        motor1 = GetComponent<Rigidbody>().velocity.magnitude;
-        newinptu = motorRange;
-     
         foreach (AxleInfo axleInfo in axleInfos) {
             if (axleInfo.steering) {
                 axleInfo.leftWheel.steerAngle = steering;
@@ -74,6 +71,13 @@ public class DrivingControl : MonoBehaviour {
                     axleInfo.leftWheel.brakeTorque = maxBrakeTorque * brake;
                     axleInfo.rightWheel.brakeTorque = maxBrakeTorque * brake;
             }
+            
+            if(Input.GetKeyDown(KeyCode.P))
+                if(axleInfo.leftWheel.rpm >-1 && 
+                axleInfo.leftWheel.rpm < 1 && 
+                axleInfo.rightWheel.rpm > -1 &&
+                axleInfo.rightWheel.rpm < 1)
+                    isParked = true;
 
             ApplyLocalPositionToVisuals(axleInfo.leftWheel);
             ApplyLocalPositionToVisuals(axleInfo.rightWheel);

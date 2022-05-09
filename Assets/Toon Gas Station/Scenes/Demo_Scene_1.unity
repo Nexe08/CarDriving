@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_1G (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1559464623955436, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4207876901952492, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -195,6 +199,10 @@ PrefabInstance:
     - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_Name
       value: Rock_Cluster_1B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4128306671338548, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_RootOrder
@@ -307,6 +315,10 @@ PrefabInstance:
     - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_Name
       value: Barrel_3B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4996578450877688, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_RootOrder
@@ -899,6 +911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -1213,6 +1229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -1271,6 +1291,10 @@ PrefabInstance:
     - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_Name
       value: Barrel_1F
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4274984841250312, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_RootOrder
@@ -1458,6 +1482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_3B (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4996578450877688, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1575,7 +1603,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192413804}
-  m_LocalRotation: {x: 0.019777268, y: 0.9716267, z: -0.21870124, w: 0.08786472}
+  m_LocalRotation: {x: -0.08519068, y: 0.8991848, z: -0.20239551, w: -0.3784776}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1907,6 +1935,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4120510040622602, guid: fa1171c4c28a81e40a4541222c24d8ad, type: 3}
   m_PrefabInstance: {fileID: 229431415}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &230980713
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1381409722}
+    m_Modifications:
+    - target: {fileID: 4797616800609523146, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_Name
+      value: Ford
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.113792
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.10000038
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.854956
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 732faad24d124a448a8ed914fac09407, type: 3}
 --- !u!1001 &232279501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2385,6 +2470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_1F (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4274984841250312, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2797,6 +2886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_3B (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4996578450877688, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3045,6 +3138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1C (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4865847638064244, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -3165,6 +3262,10 @@ PrefabInstance:
     - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_Name
       value: Barrel_3B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4996578450877688, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_RootOrder
@@ -3414,7 +3515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &467328015
 Transform:
   m_ObjectHideFlags: 0
@@ -3811,6 +3912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Pump_1A (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -4135,6 +4240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Tank_2A
       objectReference: {fileID: 0}
+    - target: {fileID: 1094374611595102, guid: 1923985024f6f81458e33b237f339aa8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4103904188389590, guid: 1923985024f6f81458e33b237f339aa8, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -4196,6 +4305,10 @@ PrefabInstance:
     - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_Name
       value: Barrel_1F (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4274984841250312, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_RootOrder
@@ -4387,6 +4500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -4482,7 +4599,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 60
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -4507,8 +4624,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626932762}
-  m_LocalRotation: {x: 0.019777268, y: 0.9716267, z: -0.21870126, w: 0.08786472}
-  m_LocalPosition: {x: 0.3746171, y: 4.5379996, z: -2.0543232}
+  m_LocalRotation: {x: -0.08519069, y: 0.8991849, z: -0.20239553, w: -0.37847757}
+  m_LocalPosition: {x: -24.192541, y: 4.51, z: -26.067282}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4713,6 +4830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1C (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4865847638064244, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -4878,6 +4999,10 @@ PrefabInstance:
     - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_Name
       value: Rock_Cluster_1B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4128306671338548, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_RootOrder
@@ -5180,6 +5305,10 @@ PrefabInstance:
     - target: {fileID: 742445086, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
       propertyPath: m_Name
       value: Streetsign_2J
+      objectReference: {fileID: 0}
+    - target: {fileID: 742445086, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5121258889201612317, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
       propertyPath: m_RootOrder
@@ -5941,6 +6070,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996679412}
     m_Modifications:
+    - target: {fileID: 1478835801025564, guid: ea4757a70ebfed4468cd2ba937ce980a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4340742489877392, guid: ea4757a70ebfed4468cd2ba937ce980a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5990,6 +6123,10 @@ PrefabInstance:
     - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_Name
       value: Rock_Cluster_1C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4865847638064244, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_RootOrder
@@ -6082,6 +6219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1B (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4128306671338548, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -6135,6 +6276,10 @@ PrefabInstance:
     - target: {fileID: 742445086, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
       propertyPath: m_Name
       value: Streetsign_2J (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 742445086, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5121258889201612317, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
       propertyPath: m_RootOrder
@@ -6818,6 +6963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Tank_1A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1215599239297890, guid: 3f6845443ff1c26428a90cf51e082da2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4138284576967956, guid: 3f6845443ff1c26428a90cf51e082da2, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -7064,6 +7213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996679412}
     m_Modifications:
+    - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4865847638064244, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -7145,8 +7298,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_LookAt: {fileID: 1408188267}
+  m_Follow: {fileID: 1408188267}
   m_CommonLens: 1
   m_Lens:
     FieldOfView: 40
@@ -7236,7 +7389,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907137049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3746171, y: 4.5379996, z: -2.0543232}
+  m_LocalPosition: {x: -24.192541, y: 4.51, z: -26.067282}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1325691018}
@@ -7810,7 +7963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &991027266
 Transform:
   m_ObjectHideFlags: 0
@@ -7878,6 +8031,10 @@ PrefabInstance:
     - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_Name
       value: Rock_Cluster_1C (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4865847638064244, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_RootOrder
@@ -8277,6 +8434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -8520,6 +8681,10 @@ PrefabInstance:
     - target: {fileID: 1559464623955436, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
       propertyPath: m_Name
       value: Barrel_1G (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559464623955436, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4207876901952492, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
       propertyPath: m_RootOrder
@@ -9020,6 +9185,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996679412}
     m_Modifications:
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -9449,6 +9618,10 @@ PrefabInstance:
     - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_Name
       value: Gas_Pump_1A (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_RootOrder
@@ -9944,6 +10117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1C (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1678190606960506, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4865847638064244, guid: 401aa6fa1f294c54a915af5d306e5137, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -9993,6 +10170,10 @@ PrefabInstance:
     - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_Name
       value: Rock_Cluster_1A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
@@ -10103,7 +10284,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325691016}
-  m_LocalRotation: {x: 0.021818843, y: 0.96626806, z: -0.2412773, w: 0.08738016}
+  m_LocalRotation: {x: -0.09398474, y: 0.8942257, z: -0.22328836, w: -0.37639028}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10162,6 +10343,10 @@ PrefabInstance:
     - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_Name
       value: Gas_Pump_1A (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_RootOrder
@@ -10381,6 +10566,7 @@ Transform:
   - {fileID: 731478638}
   - {fileID: 2034380840}
   - {fileID: 487217425}
+  - {fileID: 1408188267}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10394,6 +10580,10 @@ PrefabInstance:
     - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_Name
       value: Rock_Cluster_1A (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
@@ -10449,6 +10639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Pump_1A (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -10500,6 +10694,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
   m_PrefabInstance: {fileID: 1407740887}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1408188267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4797616800609523148, guid: 732faad24d124a448a8ed914fac09407, type: 3}
+  m_PrefabInstance: {fileID: 230980713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1411276508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10510,6 +10709,10 @@ PrefabInstance:
     - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_Name
       value: Barrel_1F (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4274984841250312, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_RootOrder
@@ -10971,6 +11174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Tank_2A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1094374611595102, guid: 1923985024f6f81458e33b237f339aa8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4103904188389590, guid: 1923985024f6f81458e33b237f339aa8, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -11098,6 +11305,10 @@ PrefabInstance:
     - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_Name
       value: Barrel_3B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4996578450877688, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_RootOrder
@@ -11227,6 +11438,10 @@ PrefabInstance:
     - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_Name
       value: Gas_Pump_1A (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_RootOrder
@@ -11788,6 +12003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gas_Pump_1A (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -11849,6 +12068,10 @@ PrefabInstance:
     - target: {fileID: 1559464623955436, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
       propertyPath: m_Name
       value: Barrel_1G
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559464623955436, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4207876901952492, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
       propertyPath: m_RootOrder
@@ -12334,6 +12557,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1996679412}
     m_Modifications:
+    - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4128306671338548, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12619,6 +12846,10 @@ PrefabInstance:
     - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_Name
       value: Rock_Cluster_1B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1179635076886432, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4128306671338548, guid: 4bfd76daaa0019345a2683685787cf68, type: 3}
       propertyPath: m_RootOrder
@@ -12989,6 +13220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_1F (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1664475624090918, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4274984841250312, guid: d6cda6cdccb84b3439d791e01c71339a, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -13171,6 +13406,10 @@ PrefabInstance:
     - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_Name
       value: Gas_Pump_1A (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892503597542226, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4684943063714584, guid: 09e575d3fd166f4489c573635ce22f38, type: 3}
       propertyPath: m_RootOrder
@@ -13536,6 +13775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Streetsign_2J (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 742445086, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5121258889201612317, guid: 5d32668dd4a79d24ab029c5e75ccd9ad, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -13653,7 +13896,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892050512}
-  m_LocalRotation: {x: 0.017733874, y: 0.9764382, z: -0.19610485, w: 0.08829988}
+  m_LocalRotation: {x: -0.076388724, y: 0.9036376, z: -0.18148383, w: -0.3803518}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -13671,6 +13914,10 @@ PrefabInstance:
     - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_Name
       value: Barrel_3B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376557422489878, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4996578450877688, guid: 8bd17aeaec29eb847aaeecb7c2e00d10, type: 3}
       propertyPath: m_RootOrder
@@ -14256,6 +14503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_Cluster_1A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1995239772941410, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4203735794463848, guid: bba84dffd74116f409ff2fdb22a8855d, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -14417,6 +14668,10 @@ PrefabInstance:
     - target: {fileID: 1559464623955436, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
       propertyPath: m_Name
       value: Barrel_1G (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1559464623955436, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4207876901952492, guid: fe8b0e285ec80f6408f9ac4b0060b46a, type: 3}
       propertyPath: m_RootOrder
@@ -15337,6 +15592,10 @@ PrefabInstance:
     - target: {fileID: 1451193481349660, guid: 3c74099f6a446b143a65c0110db42427, type: 3}
       propertyPath: m_Name
       value: Gas_Tank_1B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1451193481349660, guid: 3c74099f6a446b143a65c0110db42427, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4476570226986528, guid: 3c74099f6a446b143a65c0110db42427, type: 3}
       propertyPath: m_RootOrder
