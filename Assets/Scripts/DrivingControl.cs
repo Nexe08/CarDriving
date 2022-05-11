@@ -12,6 +12,9 @@ public class DrivingControl : MonoBehaviour {
     public float magnitude;
 
     bool braking;
+    bool parking;
+    float Horizontal;
+    float Vertical;
     
     AudioSource enginSound;
     
@@ -43,36 +46,36 @@ public class DrivingControl : MonoBehaviour {
     public void FixedUpdate()
     {
         if (isParked)
+            //send signal to mission manager that car has been parked
             return;
         
-        float vertical = Input.GetAxis("Vertical");
-        float motor = maxMotorTorque * vertical;
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        float motor = maxMotorTorque * Vertical;
+        float steering = maxSteeringAngle * Horizontal;
         float brake = braking ? maxBrakeTorque : 0;
-        float motorRange = (GetComponent<Rigidbody>().velocity.magnitude - 1f) / (2f - 1f);
-        enginSound.pitch = motorRange;
-        enginSound.pitch = Mathf.Clamp(enginSound.pitch, .7f, 3f);
 
+        HandelEngineSound();
+                
         foreach (AxleInfo axleInfo in axleInfos) {
             if (axleInfo.steering) {
                 axleInfo.leftWheel.steerAngle = steering;
                 axleInfo.rightWheel.steerAngle = steering;
             }
             
-                if (axleInfo.motor) {
-                    // --- acceleration
-                    axleInfo.leftWheel.motorTorque = motor;
-                    axleInfo.rightWheel.motorTorque = motor;
-                }
-                
-                if (axleInfo.brake)
-                {
-                    // --- brake
-                    axleInfo.leftWheel.brakeTorque = maxBrakeTorque * brake;
-                    axleInfo.rightWheel.brakeTorque = maxBrakeTorque * brake;
+            if (axleInfo.motor) {
+                // --- acceleration
+                axleInfo.leftWheel.motorTorque = motor;
+                axleInfo.rightWheel.motorTorque = motor;
             }
             
-            if(Input.GetKeyDown(KeyCode.P))
+            if (axleInfo.brake)
+            {
+                // --- brake
+                axleInfo.leftWheel.brakeTorque = maxBrakeTorque * brake;
+                axleInfo.rightWheel.brakeTorque = maxBrakeTorque * brake;
+            }
+
+            
+            if(parking)
                 if(axleInfo.leftWheel.rpm >-1 && 
                 axleInfo.leftWheel.rpm < 1 && 
                 axleInfo.rightWheel.rpm > -1 &&
@@ -87,7 +90,22 @@ public class DrivingControl : MonoBehaviour {
 
     void Update()
     {
+        HandelInput();
+    }
+
+    void HandelEngineSound()
+    {
+        float motorRange = (GetComponent<Rigidbody>().velocity.magnitude - 1f) / (2f - 1f);
+        enginSound.pitch = motorRange;
+        enginSound.pitch = Mathf.Clamp(enginSound.pitch, .7f, 3f);
+    }
+
+    void HandelInput()
+    {
+        Horizontal = Input.GetAxis("Horizontal");
+        Vertical = Input.GetAxis("Vertical");
         braking = Input.GetKey(KeyCode.Space);
+        parking = Input.GetKey(KeyCode.P) ? !parking : !parking; // switching between parking & not parking
     }
 }
 
